@@ -6,6 +6,7 @@ const HeaderTop = ()=>{
         <div>
             <HeaderTopMenu />
             <HeaderTopAsk />
+            フッター
         </div>
     )
 }

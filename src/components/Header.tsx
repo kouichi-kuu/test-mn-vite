@@ -1,7 +1,7 @@
 const Header = (props:{text:string})=>{
     return (
         <header>
-            Header
+            ヘッダー
         </header>
     )
 }

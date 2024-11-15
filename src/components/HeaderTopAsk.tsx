@@ -1,6 +1,10 @@
-const HeaderTopAsk = ()=>{
+const HeaderTopAsk = ({menuAsk}:{menuAsk:string})=>{
     return (
-        <div>HeaderTopAsk</div>
+        <div className="menu-ask">
+            <div className="menu-ask__mail">
+                <a href={`mailto:${menuAsk}`} className="links">お問い合わせ</a>
+            </div>
+        </div>
     )
 }
 

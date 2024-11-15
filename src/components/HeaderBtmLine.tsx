@@ -1,6 +1,8 @@
-const HeaderBtmLine = ()=>{
+const HeaderBtmLine = ({headerBtmTxt}:{headerBtmTxt:string})=>{
     return (
-        <div>HeaderBtmLine</div>
+        <div className="header-btm__elem">
+            <p className="header-btm__txt">{headerBtmTxt}</p>
+        </div>
     )
 }
 

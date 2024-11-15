@@ -1,6 +1,8 @@
-const HeaderAboveLine = ()=>{
+const HeaderAboveLine = ({menuAboveTxt}:{menuAboveTxt:string})=>{
     return (
-        <div>HeaderAboveLine</div>
+        <div className="header-above__line">
+            <p className="header-above__txt">{menuAboveTxt}</p>
+        </div>
     )
 }
 
